@@ -251,6 +251,11 @@ export const appLibrary = Object.freeze<{ id: string; apps: AppPreset[] }[]>([
 		apps: [
 			{ name: 'GeForce NOW', url: 'https://play.geforcenow.com' },
 			{ name: 'Xbox Cloud Gaming', url: 'https://www.xbox.com/play' },
+			{
+				name: 'Obsidian',
+				url: 'https://playobsidian.com',
+				icon: 'https://playobsidian.com/assets/logo-512.png',
+			},
 			{ name: 'Chess.com', url: 'https://www.chess.com' },
 			{ name: 'GeoGuessr', url: 'https://www.geoguessr.com' },
 			{ name: 'Wordle', url: 'https://www.nytimes.com/games/wordle/index.html' },
@@ -268,6 +273,11 @@ export const appLibrary = Object.freeze<{ id: string; apps: AppPreset[] }[]>([
 			{ name: 'TypeRacer', url: 'https://play.typeracer.com', icon: 'https://data.typeracer.com/public/images/tr_logo_200.cache.png' },
 			{ name: 'Scratch', url: 'https://scratch.mit.edu' },
 			{ name: 'GBA Games', url: 'https://gba.js.org' },
+			{
+				name: 'Geometry Dash',
+				url: 'https://web-dashers.github.io',
+				icon: 'https://geometrydash.wiki.gg/images/GeometryDash.png',
+			},
 		],
 	},
 	{
