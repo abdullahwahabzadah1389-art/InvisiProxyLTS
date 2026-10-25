@@ -124,20 +124,6 @@ export default function Header() {
 					<li class="mirror-links-nav">
 						<MirrorLinks />
 					</li>
-					<li class="donate-nav">
-						<a
-							class="donate-link"
-							href={route('/patreon')}
-							target="_blank"
-							rel="noopener noreferrer"
-							title={translate('header.donate')}
-						>
-							<i class="fab fa-patreon" aria-hidden="true"></i>
-							<span class="sr-only">
-								{translate('header.donate')}
-							</span>
-						</a>
-					</li>
 					<li class="dropdown-parent smenu">
 						<div class="white-text">
 							<button
